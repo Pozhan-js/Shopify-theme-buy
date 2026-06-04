@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "cart": {
     "general": {
@@ -38,7 +47,8 @@
         "one": "y tienes {{ count }} producto en el carrito",
         "other":  "y tiene {{ count }} productos en el carrito"
       },
-      "qualified_shipping_message": "¡Felicidades! Su pedido está calificado para el envío libre"
+      "qualified_shipping_message": "¡Felicidades! Su pedido está calificado para el envío libre",
+      "remove_discount": "Quitar descuento"
     },
     "shipping_calculator": {
       "estimate_shipping": "Fecha de entrega estimada",
@@ -279,7 +289,8 @@
       "upsell_error_title": "Elija un producto de venta adicional",
       "upsell_error_info": "Use metacampos para mostrar un producto aquí. Las ventas adicionales vacías no se mostrarán en el sitio en vivo.",
       "missing_metafield_image": "Utilice un metafield para mostrar una imagen aquí. Los metacampos vacíos no se mostrarán en el sitio activo.",
-      "shop_now": "Compra ahora"
+      "shop_now": "Compra ahora",
+      "accordion_heading": "Detalles del producto"
     },
     "product": {
       "regular_price": "Precio regular",

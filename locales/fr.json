@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Ce site Web a des limites de navigation. Il est recommandé d'utiliser un navigateur comme Edge, Chrome, Safari ou Firefox.",
@@ -197,7 +206,8 @@
         "one": "et vous avez {{count}} produit dans le panier",
         "other": "et vous avez {{count}} produits dans le panier"
       },
-      "qualified_shipping_message": "Votre commande est qualifié pour la livraison gratuite"
+      "qualified_shipping_message": "Votre commande est qualifié pour la livraison gratuite",
+      "remove_discount": "Supprimer la remise"
     },
     "shipping_calculator": {
       "estimate_shipping": "Estimer les frais de livraison",
@@ -442,7 +452,8 @@
       "upsell_error_title": "Choisissez un produit de vente incitative",
       "upsell_error_info": "Utilisez des champs méta pour afficher un produit ici. Les ventes incitatives vides ne s'afficheront pas sur le site en direct.",
       "missing_metafield_image": "Utilisez un méta-champ pour afficher une image ici. Les champs méta vides ne seront pas affichés sur le site.",
-      "shop_now": "Achetez maintenant"
+      "shop_now": "Achetez maintenant",
+      "accordion_heading": "Details du produit"
     },
     "product": {
       "regular_price": "Prix régulier",

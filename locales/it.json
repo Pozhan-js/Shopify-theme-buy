@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Questo sito non supporta completamente il tuo browser. Ti consigliamo di utilizzare Edge, Chrome, Safari o Firefox.",
@@ -197,7 +206,8 @@
         "one": "e hai {{ count }} prodotto nel carrello",
         "other": "e hai {{ count }} prodotti nel carrello"
       },
-      "qualified_shipping_message": "Congratulazioni! Il tuo ordine ha diritto alla spedizione gratuita"
+      "qualified_shipping_message": "Congratulazioni! Il tuo ordine ha diritto alla spedizione gratuita",
+      "remove_discount": "Rimuovi sconto"
     },
     "shipping_calculator": {
       "estimate_shipping": "Spese di spedizione stimate",
@@ -442,7 +452,8 @@
       "upsell_error_title": "Scegli un prodotto upsell",
       "upsell_error_info": "Usa i metafield per mostrare un prodotto qui. Gli upsell vuoti non verranno visualizzati sul sito live.",
       "missing_metafield_image": "Utilizzare un metacampo per mostrare un'immagine. I meta-campi vuoti non verranno visualizzati sul sito live.",
-      "shop_now": "Acquistare ora"
+      "shop_now": "Acquistare ora",
+      "accordion_heading": "Dettagli prodotto"
     },
     "product": {
       "regular_price": "Prezzo base",

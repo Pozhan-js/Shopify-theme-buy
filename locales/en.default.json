@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "This site has limited support for your browser. We recommend switching to Edge, Chrome, Safari, or Firefox.",
@@ -192,7 +201,8 @@
         "one": "and you have {{ count }} product in the cart",
         "other": "and you have {{ count }} products in the cart"
       },
-      "qualified_shipping_message": "Congratulations! Your order qualifies for free shipping"
+      "qualified_shipping_message": "Congratulations! Your order qualifies for free shipping",
+      "remove_discount": "Remove discount"
     },
     "shipping_calculator": {
       "estimate_shipping": "Estimate shipping",
@@ -437,7 +447,8 @@
       "upsell_error_title": "Choose an upsell product",
       "upsell_error_info": "Use metafields to show a product here. Empty upsells will not show on live site.",
       "missing_metafield_image": "Use a metafield to show an image here. Empty metafields will not show on live site.",
-      "shop_now": "Shop now"
+      "shop_now": "Shop now",
+      "accordion_heading": "Product details"
     },
     "product": {
       "regular_price": "Regular price",

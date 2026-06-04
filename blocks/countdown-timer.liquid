@@ -1,0 +1,96 @@
+{%- render 'countdown-timer',
+  end_date: block.settings.end_date,
+  end_time: block.settings.end_time,
+  period: block.settings.period,
+  digits_font_size: block.settings.digits_font_size,
+  text_font_size: block.settings.text_font_size,
+  end_message: block.settings.end_message,
+  hide_on_complete: block.settings.hide_on_complete,
+  animation_anchor: section.id,
+  boxed: block.settings.boxed
+-%}
+
+{% schema %}
+{
+  "name": "Countdown timer",
+  "tag": null,
+  "settings": [
+    {
+      "type": "text",
+      "id": "end_date",
+      "label": "End date",
+      "placeholder": "2026-12-31",
+      "default": "2026-12-31",
+      "info": "Use format \"YYYY-MM-DD\"."
+    },
+    {
+      "type": "text",
+      "id": "end_time",
+      "label": "End time",
+      "default": "11:59",
+      "placeholder": "11:59",
+      "info": "Use 12-hour time convention in format \"HH:MM\"."
+    },
+    {
+      "type": "radio",
+      "id": "period",
+      "label": "AM/PM",
+      "options": [
+        {"value": "am", "label": "AM"},
+        {"value": "pm", "label": "PM"}
+      ],
+      "default": "am"
+    },
+    {
+      "type": "select",
+      "id": "digits_font_size",
+      "label": "Digits size",
+      "default": "heading-large",
+      "options": [
+        {"value": "heading-mini", "label": "Mini"},
+        {"value": "heading-x-small", "label": "Extra small"},
+        {"value": "heading-small", "label": "Small"},
+        {"value": "heading-medium", "label": "Medium"},
+        {"value": "heading-large", "label": "Large"},
+        {"value": "heading-x-large", "label": "Extra large"}
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_font_size",
+      "label": "Text size",
+      "default": "body-small",
+      "options": [
+        {"value": "body-x-small", "label": "Extra small"},
+        {"value": "body-small", "label": "Small"},
+        {"value": "body-medium", "label": "Medium"},
+        {"value": "body-large", "label": "Large"},
+        {"value": "body-x-large", "label": "Extra large"}
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "end_message",
+      "label": "End message",
+      "default": "<p>Offer has ended.</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_on_complete",
+      "label": "Hide when complete",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "boxed",
+      "label": "Boxed style",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Countdown timer"
+    }
+  ]
+}
+{% endschema %}
